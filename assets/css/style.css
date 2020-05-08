@@ -10,36 +10,50 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Container to wrap whole page */
+.container {
+    /* Box-model */
+    width: 100%;
+  
+    /* Positioning */
+    margin: 10px;
+  }
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    width: 100%;
+    float: right;
 }
+
 
 .header h1 {
     display: inline-block;
-    font-size: 50px;
-    padding: 20px;
+    font-size: 40px;
+    padding: 10px;
+       
 }
 
 .header h1 .seo {
     color: #d9dcd6;
-
 }
 
 .header div {
+    float: right;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 36px;
 }
 
 /* Make font size larger */
 .header div ul {
     list-style-type: none;
     font-size: 24px;
+    top:50px;  
+    right: -10px;
 
 }
 
@@ -47,6 +61,8 @@ body {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
+
+
 }
 
 a {
@@ -55,7 +71,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .hero {
@@ -83,6 +99,7 @@ p {
     margin-left: 20px;
 }
 
+/* change font family to arial */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,38 +107,46 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #2589bd;
+    color: black;
 }
 
 .benefit-lead {
     margin-bottom: 32px;
-    color: #ffffff;
+    padding: 10px;
+    background-color: orange;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
+    padding: 10px;
+    background-color: orange;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    padding: 10px;
+    background-color: orange;
 }
 
 .benefit-lead h3 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
+    color: black;
+
 }
 
 .benefit-brand h3 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
+    color: black;
 }
 
 .benefit-cost h3 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
+    color: black;
 }
 
 .benefit-lead img {
@@ -203,6 +228,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
